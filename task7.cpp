@@ -46,7 +46,7 @@ int main()
    void (*fptr)(int *,int); 
    if (a == 1) {
       fptr  = bubble; 
-   } else if(a == 0) {
+   } else if(a == 2) {
        fptr  = selection;
    }
 
